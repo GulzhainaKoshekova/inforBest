@@ -1,14 +1,31 @@
+/* Бүкіл беттің стилі */
 body { 
     font-family: Arial, sans-serif; 
     text-align: center; 
     margin: 20px; 
-} 
+}
+
+/* Суретті ортаға қою */
+.image-container {
+    text-align: center;
+    margin-top: 20px; /* Жоғарғы бос орын */
+}
+
+/* Бөлімдерді төменге түсіру */
+.menu {
+    text-align: center;
+    margin-top: 30px; /* Суреттен кейін бос орын */
+}
+
+/* Сілтемелер стилі */
 a { 
     margin: 10px; 
     display: inline-block; 
     text-decoration: none; 
     color: blue; 
 } 
+
+/* Сілтемеге тінтуірмен апарғанда түсін өзгерту */
 a:hover { 
     color: red; 
 }
