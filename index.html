@@ -1,33 +1,59 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Басты бет</title>
-    <link rel='stylesheet' href='assets/css/style.css'>
-</head>
-<body>
-    <header>
-    <img src="assets/images/logo.png" alt="Мектеп логотипі" class="logo">
-</header>
+/* Бүкіл беттің стилі */
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f0f0f0;
+}
 
-    <div class="container">
-        <h1>Қош келдіңіз!</h1>
-        <p> Бұл сайт Arduino, Робототехника және 3D модельдеу бойынша білім алуға арналған.</p>
-     </div>
-    
-    <!-- Суретті ортаға қою үшін div қолданамыз -->
-    <div class="image-container">
-        <img src="assets/images/a_1.jpg" width="300">
-    </div>
+/* Жоғарғы және төменгі көк аймақ */
+.header, .footer {
+    background-color: #1E5BC6; /* Көк түс */
+    color: white; /* Ақ мәтін */
+    padding: 20px;
+    text-align: center;
+}
 
-    <!-- Бөлімдерді төменге түсіру үшін арнайы контейнер -->
-    <div class="menu">
-        <a href='arduino.html'>Arduino</a> | 
-        <a href='robotics.html'>Робототехника</a> | 
-        <a href='modeling.html'>3D Модельдеу</a>
-    </div>
-    
-    <footer>
-        <p>© 2025 Білім беру платформасы</p>
-    </footer>
-</body>
-</html>
+/* Логотип */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 120px;
+    height: auto;
+}
+
+/* Контент аймағы */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Суретті ортаға қою */
+.image-container img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Меню стилі */
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    background-color: #1E5BC6;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #143B8E;
+}
