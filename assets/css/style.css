@@ -11,18 +11,19 @@ body {
 .header, .footer {
     background-color: #1E5BC6; /* Көк түс */
     color: white; /* Жазу түсі ақ */
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
 /* Негізгі контент аймағы */
 .container {
-    background-color: white;
+    background-color: transparent; /* Ақ фонды алып тастау */
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: none; /* Егер көлеңке де керек болмаса, алып тастаңыз */
 }
+
 
 /* Мектеп логотипі */
 .logo {
