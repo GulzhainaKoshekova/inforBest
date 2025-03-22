@@ -29,3 +29,10 @@ a {
 a:hover { 
     color: red; 
 }
+.logo {
+    position: absolute; /* Қалқып тұруы үшін */
+    top: 10px; /* Жоғарыдан арақашықтық */
+    left: 10px; /* Сол жақтан арақашықтық */
+    width: 80px; /* Өлшемін реттеу */
+    height: auto;
+}
