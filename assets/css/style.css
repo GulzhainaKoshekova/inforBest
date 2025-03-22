@@ -4,6 +4,20 @@ body {
     text-align: center; 
     margin: 20px; 
 }
+body {
+    background-color: #f0f0f0; /* Сұр фон */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white; /* Негізгі контенттің түсі */
+    width: 80%;
+    margin: 20px auto; /* Ортасына орналастыру */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Жұмсақ көлеңке */
+}
+
 
 /* Суретті ортаға қою */
 .image-container {
@@ -33,6 +47,6 @@ a:hover {
     position: absolute; /* Қалқып тұруы үшін */
     top: 10px; /* Жоғарыдан арақашықтық */
     left: 10px; /* Сол жақтан арақашықтық */
-    width: 80px; /* Өлшемін реттеу */
+    width: 180px; /* Өлшемін реттеу */
     height: auto;
 }
