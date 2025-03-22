@@ -2,50 +2,47 @@
 body { 
     font-family: Arial, sans-serif; 
     text-align: center; 
-    margin: 20px; 
-     padding: 0;
-     background-color: #f0f0f0; /* Сұр фон */
+    margin: 0; 
+    padding: 0; 
+    background-color: #f0f0f0;
 }
 
-.container {
-    background-color: white; /* Негізгі контенттің түсі */
-    width: 80%;
-    margin: 20px auto; /* Ортасына орналастыру */
+/* Жоғарғы және төменгі көк аймақ */
+.header, .footer {
+    background-color: #1E5BC6; /* Көк түс */
+    color: white; /* Жазу түсі ақ */
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Жұмсақ көлеңке */
+    text-align: center;
 }
 
-
-/* Суретті ортаға қою */
-.image-container {
-    text-align: center;
-    margin-top: 20px; /* Жоғарғы бос орын */
+/* Негізгі контент аймағы */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Бөлімдерді төменге түсіру */
-.menu {
-    text-align: center;
-    margin-top: 30px; /* Суреттен кейін бос орын */
+/* Мектеп логотипі */
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
 }
 
 /* Сілтемелер стилі */
 a { 
-    margin: 10px; 
-    display: inline-block; 
-    text-decoration: none; 
-    color: blue; 
-} 
-
-/* Сілтемеге тінтуірмен апарғанда түсін өзгерту */
-a:hover { 
-    color: red; 
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
 }
-.logo {
-    position: fixed; /* Экранда бекіту */
-    top: 10px; /* Жоғарыдан арақашықтық */
-    left: 20px; /* Сол жақтан арақашықтық */
-    width: 150px; /* Өлшемін реттеу */
-    height: auto;
-    z-index: 1000; /* Басқа элементтерден жоғары тұру үшін */
+
+a:hover { 
+    color: yellow;
 }
 
