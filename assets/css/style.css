@@ -3,11 +3,8 @@ body {
     font-family: Arial, sans-serif; 
     text-align: center; 
     margin: 20px; 
-}
-body {
-    background-color: #f0f0f0; /* Сұр фон */
-    margin: 0;
-    padding: 0;
+     padding: 0;
+     background-color: #f0f0f0; /* Сұр фон */
 }
 
 .container {
@@ -44,9 +41,11 @@ a:hover {
     color: red; 
 }
 .logo {
-    position: absolute; /* Қалқып тұруы үшін */
+    position: fixed; /* Экранда бекіту */
     top: 10px; /* Жоғарыдан арақашықтық */
-    left: 50px; /* Сол жақтан арақашықтық */
-    width: 180px; /* Өлшемін реттеу */
+    left: 20px; /* Сол жақтан арақашықтық */
+    width: 150px; /* Өлшемін реттеу */
     height: auto;
+    z-index: 1000; /* Басқа элементтерден жоғары тұру үшін */
 }
+
