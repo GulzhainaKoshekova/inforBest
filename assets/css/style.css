@@ -42,8 +42,12 @@ a {
     text-decoration: none;
     color: blue;
 }
-
-a:hover { 
-    color: yellow;
+.basty-bet {
+    position: absolute;
+    top: 10px; /* Жоғарыдан арақашықтық */
+    right: 20px; /* Оң жақ шеті */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff; /* Көк түсті */
 }
-
