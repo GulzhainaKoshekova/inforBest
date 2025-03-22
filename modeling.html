@@ -5,14 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Модельдеу</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Басты бет сілтемесін жоғары оң жаққа орналастыру */
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .top-right:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Навигацияны реттеу */
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 8px 12px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background: #218838;
+        }
+    </style>
 </head>
 <body>
+    <!-- Басты бет сілтемесі жоғарғы оң жақ бұрышта -->
+    <a href="index.html" class="top-right">Басты бет</a>
+
     <h1>3D Модельдеу</h1>
     <p>Бұл бөлімде 3D модельдеу туралы ақпарат болады.</p>
 
     <nav>
-        <a href="index.html">Басты бет</a>
         <a href="assets/uploads/3.pdf" download>PDF жүктеу</a>
     </nav>
 </body>
 </html>
+
