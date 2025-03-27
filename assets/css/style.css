@@ -6,6 +6,9 @@ body {
     padding: 0; 
     background-color: white;
     font-size: 20px; /* Жалпы мәтіннің өлшемін үлкейту */
+    /* Тақырыптарды қоюлау және түсін өзгерту */
+h1, h2 {
+    color: #00FFFF; /* Көк түсті тақырыптар */
 }
 
 /* Жоғарғы көк аймақ */
@@ -34,6 +37,12 @@ body {
     margin: auto;
     text-align: center;
     padding-bottom: 80px; /* Футерге орын қалдыру */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; /* Бөлімдер арасындағы аралықты ашу */
+    flex-wrap: wrap;
+    padding: 40px; /* Контент айналасындағы бос орын */
 }
 
 /* Мектеп логотипі */
