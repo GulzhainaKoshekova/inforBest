@@ -51,3 +51,19 @@ a {
     font-weight: bold;
     color: #007bff; /* Көк түсті */
 }
+.content {
+    display: flex;
+    justify-content: space-between; /* Екі жаққа бөлу */
+    padding: 20px;
+}
+
+.left, .right {
+    width: 45%; /* Әрқайсысына тең өлшем беру */
+    text-align: center;
+}
+
+img {
+    width: 100%; /* Суреттер өлшемін контейнерге бейімдеу */
+    max-width: 300px; /* Максималды ені */
+    height: auto;
+}
