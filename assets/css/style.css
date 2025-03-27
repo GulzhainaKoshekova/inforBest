@@ -109,3 +109,19 @@ img {
 h1, h2 {
     font-size: 32px;
 }
+.header {
+    text-align: center; /* Мәтінді толық ортасына қою */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Биіктігін үлкейту */
+}
+
+h1 {
+    margin: 10px 0; /* Тақырып айналасындағы бос орын */
+}
+
+h2 {
+    margin-top: 5px; /* Төменгі мәтіннің тақырыпқа жақындауын реттеу */
+}
