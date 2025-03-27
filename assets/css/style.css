@@ -5,25 +5,36 @@ body {
     margin: 0; 
     padding: 0; 
     background-color: white;
+    font-size: 20px; /* Жалпы мәтіннің өлшемін үлкейту */
 }
 
-/* Жоғарғы және төменгі көк аймақ */
-.header, .footer {
+/* Жоғарғы көк аймақ */
+.header {
     background-color: #1E5BC6; /* Көк түс */
     color: white; /* Жазу түсі ақ */
     padding: 40px;
     text-align: center;
 }
 
-/* Негізгі контент аймағы */
-.container {
-    background-color: transparent; /* Ақ фонды алып тастау */
-    width: 80%;
-    margin: 20px auto;
+/* Төменгі көк аймақ (төменде бекітіледі) */
+.footer {
+    background-color: #1E5BC6;
+    color: white;
+    text-align: center;
     padding: 20px;
-    box-shadow: none; /* Егер көлеңке де керек болмаса, алып тастаңыз */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
+/* Контентті орталыққа орналастыру және үлкейту */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 80px; /* Футерге орын қалдыру */
+}
 
 /* Мектеп логотипі */
 .logo {
@@ -41,29 +52,45 @@ a {
     display: inline-block;
     text-decoration: none;
     color: blue;
+    font-size: 22px; /* Сілтеме мәтіндерін үлкейту */
+    font-weight: bold;
 }
+
+/* "Басты бет" батырмасы */
 .basty-bet {
     position: absolute;
-    top: 10px; /* Жоғарыдан арақашықтық */
-    right: 20px; /* Оң жақ шеті */
+    top: 10px;
+    right: 20px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: #007bff; /* Көк түсті */
+    color: #007bff;
 }
+
+/* Контент бөлімі */
 .content {
     display: flex;
-    justify-content: space-between; /* Екі жаққа бөлу */
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Элементтердің арасы */
+    flex-wrap: wrap;
     padding: 20px;
 }
 
+/* Контент бөліктері */
 .left, .right {
-    width: 45%; /* Әрқайсысына тең өлшем беру */
+    width: 45%;
     text-align: center;
 }
 
+/* Суреттерді үлкейту */
 img {
-    width: 500%; /* Суреттер өлшемін контейнерге бейімдеу */
-    max-width: 300px; /* Максималды ені */
+    width: 100%; /* Контейнерге сай болсын */
+    max-width: 500px; /* Үлкенірек етіп жасау */
     height: auto;
+}
+
+/* Тақырыптарды үлкейту */
+h1, h2 {
+    font-size: 32px;
 }
