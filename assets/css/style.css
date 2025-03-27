@@ -6,15 +6,6 @@ body {
     padding: 0; 
     background-color: white;
     font-size: 20px; /* Жалпы мәтіннің өлшемін үлкейту */
-    color: #333; /* Қара түсті жұмсартылған қою сұр */
-}
-/* Сілтемелерді көк түске өзгерту */
-a {
-    color: #1E5BC6; /* Көк түсті қолдану */
-}
-/* Тақырыптарды қоюлау және түсін өзгерту */
-h1, h2 {
-    color: #1E5BC6; /* Көк түсті тақырыптар */
 }
 
 /* Жоғарғы көк аймақ */
@@ -43,12 +34,6 @@ h1, h2 {
     margin: auto;
     text-align: center;
     padding-bottom: 80px; /* Футерге орын қалдыру */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px; /* Бөлімдер арасындағы аралықты ашу */
-    flex-wrap: wrap;
-    padding: 40px; /* Контент айналасындағы бос орын */
 }
 
 /* Мектеп логотипі */
@@ -108,20 +93,4 @@ img {
 /* Тақырыптарды үлкейту */
 h1, h2 {
     font-size: 32px;
-}
-.header {
-    text-align: center; /* Мәтінді толық ортасына қою */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 150px; /* Биіктігін үлкейту */
-}
-
-h1 {
-    margin: 10px 0; /* Тақырып айналасындағы бос орын */
-}
-
-h2 {
-    margin-top: 5px; /* Төменгі мәтіннің тақырыпқа жақындауын реттеу */
 }
