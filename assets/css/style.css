@@ -5,7 +5,7 @@ body {
     margin: 0; 
     padding: 0; 
     background-color: white;
-    font-size: 20px; /* Жалпы мәтіннің өлшемін үлкейту */
+    font-size: 60px; /* Жалпы мәтіннің өлшемін үлкейту */
 }
 
 /* Жоғарғы көк аймақ */
@@ -52,7 +52,7 @@ a {
     display: inline-block;
     text-decoration: none;
     color: blue;
-    font-size: 22px; /* Сілтеме мәтіндерін үлкейту */
+    font-size: 40px; /* Сілтеме мәтіндерін үлкейту */
     font-weight: bold;
 }
 
@@ -92,5 +92,5 @@ img {
 
 /* Тақырыптарды үлкейту */
 h1, h2 {
-    font-size: 32px;
+    font-size: 55px;
 }
